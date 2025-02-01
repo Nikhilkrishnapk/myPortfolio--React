@@ -1,0 +1,24 @@
+.skills img{
+    width: 50px;
+    height: auto;
+}
+.skills{
+
+    padding:20px;
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    margin:30px 0;
+    flex-wrap: wrap;
+}
+.skill h1{
+    padding: 0px 30px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    font-family: "Unbounded", serif;
+}
+.skill{
+    margin-top: 100px;
+}

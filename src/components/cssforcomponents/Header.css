@@ -1,0 +1,61 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Jost", serif;
+}
+.navbar p{
+  font-family: "Unbounded", serif;
+}
+.logo{
+  left:10px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    font-size: 20px;
+}
+.nav-menu li:hover{
+  transition: 0.4s ease-in-out;
+  background: linear-gradient(to right, #DC2424 0%, #4A569D  51%, #DC2424  100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.links{
+  color:white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.nav-menu li{
+  color:white;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Jost", serif;
+}
+
+.nav-connect {
+  background-image: linear-gradient(to right, #DC2424 0%, #4A569D  51%, #DC2424  100%)
+}
+.nav-connect {
+  
+   margin: 10px;
+   padding: 5px 10px;
+   text-align: center;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   border-radius: 50px;
+   display: block;
+   font-size: 20px;
+   cursor: pointer;
+ }
+
+ .nav-connect:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+

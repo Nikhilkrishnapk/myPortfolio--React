@@ -1,0 +1,72 @@
+.projects h1{
+    padding: 0px 30px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    font-family: "Unbounded", serif;
+}
+
+.services-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+    padding:20px;
+}
+.services-format{
+    border: 2px solid #D8D8D8;
+    background: black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out; 
+}
+.img-div{
+    margin: 0 auto;
+    width: 70%;
+}
+.img-div img{
+    width: 100%;
+    height: auto;
+}
+.services-format p{
+    text-align: justify;
+    font-size: small;
+}
+.services-format h2{
+    color:#D8D8D8;
+}
+.project-card-btn{
+    display: flex;
+    justify-content: start;
+    gap:10px;
+}
+.live-btn{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: linear-gradient(to right, #DC2424 0%, #4A569D  51%, #DC2424  100%);
+    cursor: pointer;
+    border:none;
+    color: white;
+}
+.git-btn{
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: black;
+    color:#D8D8D8;
+    border:2px solid #D8D8D8;
+}
+.live-btn:hover{
+    border:2px solid #D8D8D8;
+}
+.git-btn:hover{
+    border:2px solid rgba(221, 65, 37, 0.847);
+}
+.services-format:hover{
+    /* -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+-moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1); */
+ 
+transform: scale(1.05);
+}
